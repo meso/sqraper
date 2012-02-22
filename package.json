@@ -1,0 +1,21 @@
+{
+  "author": "Toshihiro Shimizu <shimizu.toshihiro@gmail.com>",
+  "name": "sqraper",
+  "description": "Scraping webpages with jQuery.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/meso/sqraper",
+  "repository": {
+    "url": "https://github.com/meso/sqraper.git"
+  },
+  "main": "./lib/sqraper",
+  "engines": {
+    "node": ">=0.4.x"
+  },
+  "dependencies": {
+    "jsdom": "0.2.1",
+    "iconv": "1.1.3",
+    "buffertools": "1.0.7"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
