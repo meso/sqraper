@@ -1,8 +1,8 @@
 {
   "author": "Toshihiro Shimizu <shimizu.toshihiro@gmail.com>",
   "name": "sqraper",
-  "description": "Scraping webpages with jQuery.",
-  "version": "0.0.1",
+  "description": "Scraping web pages with jQuery.",
+  "version": "0.0.3",
   "homepage": "https://github.com/meso/sqraper",
   "repository": {
     "url": "https://github.com/meso/sqraper.git"
