@@ -2,10 +2,23 @@
   "author": "Toshihiro Shimizu <shimizu.toshihiro@gmail.com>",
   "name": "sqraper",
   "description": "Scraping web pages with jQuery.",
-  "version": "0.0.4",
+  "keywords": [
+    "scraping",
+    "jQuery",
+    "jsdom",
+    "iconv",
+    "Shift_JIS",
+    "EUC-JP",
+    "ISO-2022-JP"
+  ],
+  "version": "0.0.5",
   "homepage": "https://github.com/meso/sqraper",
   "repository": {
+    "type": "git",
     "url": "https://github.com/meso/sqraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meso/jqraper/issues"
   },
   "main": "./lib/sqraper",
   "engines": {
@@ -16,6 +29,12 @@
     "iconv": "1.1.3",
     "buffertools": "1.0.7"
   },
-  "devDependencies": {},
-  "optionalDependencies": {}
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -t 5000"
+  }
 }
