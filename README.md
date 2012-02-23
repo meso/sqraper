@@ -3,11 +3,23 @@
 Scraping web pages with jQuery.
 Supported encodings are UTF-8, Shift_JIS, EUC-JP and ISO-2022-JP.
 
-# Installation
+## Installation
 
+``` bash
   $ npm install sqraper
+```
 
-# License
+## Usage
+
+``` javascript
+var sqraper = require('sqraper');
+sqraper('http://google.com', function(err, $) {
+  if (err) return console.error(err);
+  console.log($('title').text().trim());
+});
+```
+
+## License
 
 (The MIT License)
 
